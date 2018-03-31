@@ -1,0 +1,97 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+html {
+    height: 100%;
+  }
+  body {
+     height: 100%;
+     background-color: aqua;
+  }
+
+  header {
+      background-color: #ff0296;
+      padding:12px;
+      margin:30px;
+      margin-bottom: 15px;
+      border: 10px solid #fffb04;
+      font-size: 45;
+      text-align: center;
+      font-family: fantasy; 
+      align-content: center;
+      display: block;
+      width: 1400px;
+  }
+  nav {
+      line-height:3.8;
+      background-color:#fffb04;
+      margin:30px;
+      margin-top: 0in;
+      font-size: 26;
+      font-family: fantasy;
+      width:225px;
+      height: 1200px;
+      display: inline-block;
+      vertical-align: top;
+  }
+  nav ul {
+      list-style-type: square;
+      content: 25px solid #fffb04;
+      width: 1400px;
+  }
+  a {
+      color: black;
+      font-family: fantasy;
+      font-size: 25;
+      margin-right: 15px;
+      display: inline-block;
+      width: 2300px;
+  }
+  section {
+      width: 500px;
+      display: inline-block;
+  }
+  aside {
+    width: 125px;
+    display: inline-block;
+    vertical-align: top;
+    background-color:black;
+    font-size: ;
+  }
+  aside ul {
+      list-style-type: none;
+  }
+  footer {
+      width: 790px;
+      background-color:;
+      text-align:;
+      padding:5px;
+      display: block;
+  }
+  .blink_text {
+
+    animation:1s blinker linear infinite;
+    -webkit-animation:1s blinker linear infinite;
+    -moz-animation:1s blinker linear infinite;
+
+     color: black;
+    }
+
+    @-moz-keyframes blinker {  
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
+
+    @-webkit-keyframes blinker {  
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
+
+    @keyframes blinker {  
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
